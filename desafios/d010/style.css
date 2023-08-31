@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid';
+    src: url('fonte/idroid.otf') format('opentype');
+}
+
+body{ 
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #E7E5C2;   
+    display: inline;
+    margin: auto;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+}
+
+span{
+    color:#239606fa;
+    font-weight: bold;
+}
+
+header > h1{ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: linear-gradient(180deg, #3cc97b, rgba(0, 0, 0, 0.842)); 
+    padding: 23px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > p{
+    text-align: center; 
+    color: white;  
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; 
+
+    flex: 1; 
+} 
+
+
+
+li{
+    display: inline;
+}
+
+li > a{
+    color: rgba(255, 255, 255, 0.856);
+    padding: 12px 10px; 
+    text-decoration: none;
+}
+
+#lista{
+    display: flex;
+
+    justify-content: space-between;
+    gap: 10px;
+}
+
+a:hover{
+    background-color: #20603E;
+    border-radius: 14px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0px 40px 50px 40px;
+    border-radius: 0px 0px 20px 20px;
+
+ 
+}
+
+main > h2{
+    font-family: 'idroid';
+    color: #20603E;  
+}
+main > h3{
+    font-family: 'idroid';
+    color: #20603E;
+    background-image: linear-gradient(90deg, #35705065, white );
+}
+
+footer{
+    font-family:Arial, Helvetica, sans-serif, Courier, monospace;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: #72C394;
+    border-radius: 15px;
+    box-shadow: 20% black;
+    padding: 14px;
+    box-shadow: 0px 0px 7px black;
+}
+
+footer > h3{
+    background-color: #20603E;
+    border-radius: 15px 15px 0px 0px;
+    padding: 7px;
+    margin: -15px;
+    color: white;
+}
+
+footer > span{
+    color: #20603E;
+}
+
+
+p#criado{
+    background-color:#042311 ;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    border: 5px;
+    text-align: center;
+}
+
+a.links{
+    text-decoration: none;
+    background-color: #86D8AB;
+    color: #042311; 
+    font-weight: bold;  
+}
+
+iframe{
+    padding: 15px;
+    background-color: #20603E;
+    width:750px;
+    height:300px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(43, 41, 41, 0.339);
+    border-radius: 10px;
+
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+
+picture{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+
+
+picture>img{
+    width:50%
+}
+
+
+
+@media (max-width:640px) {
+    #lista{
+        flex-direction: column;
+    }
+    
+    picture>img{
+        width:100%
+    }
+    
+    
+}

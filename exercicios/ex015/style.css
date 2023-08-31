@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: rgb(238, 198, 18);
+    background-color: antiquewhite;
+}
+h2{
+    color: brown;
+}
+p{
+    text-align: justify;
+}

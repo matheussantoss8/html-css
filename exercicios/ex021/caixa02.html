@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+       body {
+        background-color: rgb(167, 167, 154);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 3px;
+       }
+       header {
+        background-color: rgb(187, 205, 209);
+        padding: 20px;
+        margin: 20px;
+       }
+
+       nav {
+        background-color: rgb(155, 151, 151);
+        padding: 3px;
+        margin: 3px;
+
+       }
+
+       nav > a {
+        text-decoration: none;
+        color: rgb(226, 226, 185);
+        font-weight: bold;
+        margin-right:  30px;
+       }
+
+       nav > a:hover {
+        text-decoration: underline;
+       }
+
+       main {
+        background-color: rgb(167, 96, 96);
+        padding: 20px;
+        margin: 15px;
+        border-radius: 0px 40px;
+        box-shadow: 12px 12px 15px 4px rgba(0, 0, 0, 0.466);
+       }
+
+       article {
+        background-color: antiquewhite;
+        padding: 10px;
+       }
+
+       article > aside {
+        background-color: rgb(212, 181, 139);
+        padding: 1px;
+       }
+       footer {
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding:2px;
+        margin: 3px;
+       }
+
+       div#bola{
+        height: 50px;
+        width:  50px;
+        background-color: aqua;
+        margin: 20px;
+        border-radius: 50%;
+       }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quod quibusdam deserunt? Rem
+                error, atque, possimus incidunt nisi recusandae modi pariatur, tempora voluptate tempore neque
+                dolore praesentium numquam sit nam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                suscipit itaque labore cumque hic ratione non rerum! Inventore deleniti reprehenderit pariatur eius
+                libero tempora, quod, corrupti consectetur dolorem quidem rem.</p>
+                <aside>
+                    <p>artigo escrito por</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>desenvolvido pelo matheus</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
