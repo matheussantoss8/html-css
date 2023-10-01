@@ -51,25 +51,34 @@ section{
 
 .imagem1{
     color: #fff;
+    text-shadow: 2px 2px 0px #000000;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: right;
+    box-shadow: inset 2px 4px 15px 3px #000000;
+    background-attachment:fixed;
 }
 
 .imagem1>p{
     background-color: #00000069;
-    width: 50vw;
+    display: inline-block;
+    padding: 10px;
 }
 
 .imagem2{
     color: #fff;
+    text-shadow: 2px 2px 0px #000000;
     background-image: url(imagens/background002.jpg);
     background-position: right;
     background-repeat: no-repeat;
+    box-shadow: inset 2px 4px 15px 3px #000000;
+    background-attachment: fixed;
 }
 
 .imagem2>p{
     background-color: #00000069;
+    display: inline-block;
+    padding: 10px;
 }
 
 
