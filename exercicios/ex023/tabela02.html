@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 700px;
+            border: 2px solid #000;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 2em;
+            background-color: #5555557a;
+        }
+        
+        td, th{
+            border: 2px solid #000;
+            text-align: center;
+            padding: 5px;
+        } 
+
+        thead, tfoot{
+            background-color: #555454da;
+            color: cornsilk;
+        }
+
+        .país{
+            text-align: left;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 90px;">População</th>
+                <th scope="col" style="width: 50px;">% da População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="país">São Paulo</td>
+                <td class="num">44 420 459</td>
+                <td>21,88%</td>
+            </tr>
+            <tr>
+                <td class="país">Minas Gerais</td>
+                <td class="num">20 538 718</td>
+                <td>10,11%</td>
+            </tr>
+            <tr>
+                <td class="país">Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+                <td>7,91%</td>
+            </tr>
+            <tr>
+                <td class="país">Bahia</td>
+                <td class="num">14 136 417</td>
+                <td>6,96%</td>
+            </tr>
+            <tr>
+                <td class="país">Paraná</td>
+                <td class="num">11 443 208</td>
+                <td>5,64%</td>
+            </tr>
+            <tr>
+                <td class="país">Rio Grande do Sul</td>
+                <td class="num">10 880 506</td>
+                <td>5,36%</td>
+            </tr>
+            <tr>
+                <td class="país">Pernambuco</td>
+                <td class="num">9 058 155</td>
+                <td>4,46%</td>
+            </tr>
+            <tr>
+                <td class="país">Ceará</td>
+                <td class="num">8 791 688</td>
+                <td>4,33%</td>
+            </tr>
+            <tr>
+                <td class="país">Pará</td>
+                <td class="num">8 116 132</td>
+                <td>4,1%</td>
+            </tr>
+            <tr>
+                <td class="país">Santa Catarina</td>
+                <td class="num">7 609 601</td>
+                <td>3,75%</td>
+            </tr>
+            <tr>
+                <td class="país">Goiás</td>
+                <td class="num">7 055 228</td>
+                <td>3,47%</td>
+            </tr>
+            <tr>
+                <td class="país">Maranhão</td>
+                <td class="num">6 775 152</td>
+                <td>3,34%</td>
+            </tr>
+            <tr>
+                <td class="país">Paraíba</td>
+                <td class="num">3 974 495</td>
+                <td>1,96%</td>
+            </tr>
+            <tr>
+                <td class="país">Amazonas</td>
+                <td class="num">3 941 175</td>
+                <td>1,94%</td>
+            </tr>
+            <tr>
+                <td class="país">Espírito Santo</td>
+                <td class="num">3 833 486</td>
+                <td>1,89%</td>
+            </tr>
+            <tr>
+                <td class="país">Mato Grosso</td>
+                <td class="num">3 658 813</td>
+                <td>1,80%</td>
+            </tr>
+            <tr>
+                <td class="país">Rio Grande do Norte</td>
+                <td class="num">3 302 406</td>
+                <td>1,63%</td>
+            </tr>
+            <tr>
+                <td class="país">Piauí</td>
+                <td class="num">3 269 200</td>
+                <td>1,61%</td>
+            </tr>
+            <tr>
+                <td class="país">Alagoas</td>
+                <td class="num">3 127 511</td>
+                <td>1,54%</td>
+            </tr>
+            <tr>
+                <td class="país">Distrito Federal</td>
+                <td class="num">2 817 068</td>
+                <td>1,39%</td>
+            </tr>
+            <tr>
+                <td class="país">Mato Grosso do Sul</td>
+                <td class="num">2 756 700</td>
+                <td>1,36%</td>
+            </tr>
+            <tr>
+                <td class="país">Sergipe</td>
+                <td class="num">2 209 558</td>
+                <td>1,09%</td>
+            </tr>
+            <tr>
+                <td class="país">Rondônia</td>
+                <td class="num">1 581 016</td>
+                <td>0,78%</td>
+            </tr>
+            <tr>
+                <td class="país">Tocantins</td>
+                <td class="num">1 511 459</td>
+                <td>0,74%</td>
+            </tr>
+            <tr>
+                <td class="país">Acre</td>
+                <td class="num">830 026</td>
+                <td>0,41%</td>
+            </tr>
+            <tr>
+                <td class="país">Amapá</td>
+                <td class="num">733 508</td>
+                <td>0,36%</td>
+            </tr>
+            <tr>
+                <td class="país">Roraima</td>
+                <td class="num">636 303</td>
+                <td>0,31%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td class="num">203 062 512</td>
+                <td>100%</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
