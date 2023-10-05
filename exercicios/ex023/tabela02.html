@@ -22,6 +22,14 @@
             padding: 5px;
         } 
 
+        tbody > tr:nth-child(odd)/* ou even */ {
+            background-color: #7c660583;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: #4b69045d;
+        }
+
         thead, tfoot{
             background-color: #555454da;
             color: cornsilk;
@@ -37,7 +45,7 @@
     </style>
 </head>
 <body>
-    <h1>uso de tabelas grandes</h1>
+    <h1>Uso de Tabelas Grandes</h1>
     
     <table>
         <caption>População das Unidades Federativas</caption>
@@ -45,7 +53,7 @@
             <tr>
                 <th scope="col">Estado</th>
                 <th scope="col" style="width: 90px;">População</th>
-                <th scope="col" style="width: 50px;">% da População</th>
+                <th scope="col" style="width: 30px;">% da População</th>
             </tr>
         </thead>
         <tbody>
