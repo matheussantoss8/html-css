@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        caption{
+            font-size: 2em;
+            padding: 5px;
+            background-color: #05706791;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        td, th{
+            border: 2px solid #000;
+            padding: 5px;
+        }
+
+        .cnome{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>25</td>
+            <td>vendedor</td>
+        </tr>
+        <tr>
+            <td>Mariana</td>
+            <td>F</td>
+            <td>18</td>
+            <td>vendedora</td>
+        </tr>
+        <tr>
+            <td>Nicolas</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Médico</td>
+        </tr>
+    </table>
+</body>
+</html>
