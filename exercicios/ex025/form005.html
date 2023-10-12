@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolha seus Esportes</h1>
+
+    <form action="fhgfu" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxmas" checked value="M"> <br>
+
+            <label for="isxfem">Feminino</label>
+            <input type="radio" name="sexo" id="isxfem" value="F">     
+        </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <label for="ifut">Futebol</label>
+            <input type="checkbox" name="fut" id="ifut"> <br>
+
+            <label for="ibas">Basquete</label>
+            <input type="checkbox" name="bas" id="ibas" checked> <br>
+
+            <label for="iten">Tênis</label> 
+            <input type="checkbox" name="ten" id="iten"> <br>
+
+            <label for="ivol">Vôlei</label> 
+            <input type="checkbox" name="vol" id="ivol"> <br>
+
+            <label for="igol">Golfe</label>
+            <input type="checkbox" name="gol" id="igol"> <br>
+
+            <label for="icorr">Corrida</label>
+            <input type="checkbox" name="corr" id="icorr" checked> 
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
