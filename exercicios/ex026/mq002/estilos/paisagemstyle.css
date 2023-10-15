@@ -3,5 +3,6 @@
 /* APARELHO EM DEITADO (LANDSCAPE) */
 
 body{
-    background: url('../imagens/cev-landscape.jpg') no-repeat left bottom ;
+    background: url('../imagens/cev-landscape.jpg') no-repeat left bottom;
+    background-size: contain;
 }
