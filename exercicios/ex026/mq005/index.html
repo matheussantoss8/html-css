@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLO DE MENU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>menu responsivo</h1>
+        <i id="burger" class="material-symbols-outlined" onclick=" clickMenu()">menu</i>
+        <nav id="item">
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+                <li><a href="#">menu5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>testando media query</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et quidem voluptates officia ullam
+                sint corporis corrupti praesentium iure velit sunt deleniti, asperiores ducimus accusamus ex numquam.
+                Incidunt, in recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ab ratione!
+                Facere ex iure, vel pariatur at labore nesciunt maxime aperiam ad minus consequatur hic fugit sequi est
+                autem temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias beatae
+                perspiciatis harum tempora dignissimos amet id suscipit esse, ducimus natus possimus aspernatur
+                reiciendis mollitia animi labore molestias non tempore?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et quidem voluptates officia ullam
+                sint corporis corrupti praesentium iure velit sunt deleniti, asperiores ducimus accusamus ex numquam.
+                Incidunt, in recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ab ratione!
+                Facere ex iure, vel pariatur at labore nesciunt maxime aperiam ad minus consequatur hic fugit sequi est
+                autem temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias beatae
+                perspiciatis harum tempora dignissimos amet id suscipit esse, ducimus natus possimus aspernatur
+                reiciendis mollitia animi labore molestias non tempore?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex, consectetur, temporibus voluptatem
+                ratione facere vero illum assumenda odit cum perferendis itaque laudantium maxime. Fuga quod quae ipsam
+                laborum doloremque.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad quis consectetur repellendus odit
+                numquam dolorem consequatur vitae voluptate possimus unde, qui inventore id rerum. Aut perferendis
+                consequatur non veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptatum
+                nesciunt voluptatem architecto, corrupti corporis aliquid doloremque, repellat commodi excepturi
+                molestias sunt. Facilis modi earum aliquam optio animi est reprehenderit. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Eius debitis modi beatae voluptatem quae exercitationem provident,
+                laudantium sunt ad vel voluptatum vero laboriosam omnis, maxime, non aliquid dignissimos incidunt
+                veritatis.
+            </p>
+        </article>
+    </main>
+    <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                item.style.display = 'block'
+            }  else {
+                iem.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+            if (item.style.display == 'block'){
+                item.style.display = 'none'
+            } else{
+                item.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
