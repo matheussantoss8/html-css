@@ -24,7 +24,7 @@ body {
     align-items: center;
     gap: 30px;
 
-    backdrop-filter: blur(7px);
+    /* backdrop-filter: blur(7px); */
     -webkit-backdrop-filter: blur(7px);
     border-radius: 20px;
     border: 1px solid #ffffffc4;  
