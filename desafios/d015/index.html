@@ -19,12 +19,12 @@
         <form action="login.html" method="post" autocomplete="on">
             <div class="login">
                 <label for="iemail">Usuário</label>
-                <input type="email" name="iemail" id="iemail">
+                <input type="email" name="iemail" id="iemail" required autocomplete="email" minlength="10">
                 <span class="material-symbols-outlined">Account_Circle</span>
             </div>
             <div class="login">
                 <label for="isenha">Senha</label>
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha" required autocomplete="current-password" minlength="8">
                 <span class="material-symbols-outlined">lock</span>
             </div>
             <div class="esqueci">
