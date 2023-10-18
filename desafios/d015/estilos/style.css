@@ -1,46 +1,109 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    background-image: linear-gradient(#182883, #20995d);
+body {
+    background: url('../imagens/pexels-google-deepmind-18069814.jpg') no-repeat center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main{
+.container {
     height: 500px;
-    width: 400px;
+    width: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     border-radius: 20px;
+    border: 1px solid #ffffffc4;
+    backdrop-filter: blur(15px);
 }
 
-div{
-    border: 2px solid;
-    border-radius: 20px;
+.formulario{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #ffffff;
 }
 
-.img{
-    align-self: start;
-    width: 100%;
-    height: 40%;
+.formulario > h1{
+    text-align: center;
+    font-size: 2.2em;
 }
 
-.login{
+form{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+div {
     width: 300px;
 }
 
+.login{
+}
+
+.login > label{
+    display: flex;
+    flex-direction: column;
+}
+
+.esqueci{
+    display: flex;
+    flex-direction: row-reverse;
+
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+
+input{
+    cursor: pointer;
+}
+
+input[type=email], [type=password]{
+    width: 250px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+input[type=submit]{
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover{
+    background-color: #514b8b;
+}
+
 .botao{
-    width: 200px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
 }

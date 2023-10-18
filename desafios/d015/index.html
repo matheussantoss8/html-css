@@ -11,28 +11,34 @@
 </head>
 
 <body>
-    <main>
-            <div class="img">
-                imagem
+    <section class="container">
+        <div class="formulario">
+            <h1>Login</h1>
+            <p>Bem-vindo(a). Faça login para acessar sua conta.</p>
+        </div>
+        <form action="login.html" method="post" autocomplete="on">
+            <div class="login">
+                <label for="iemail">Usuário</label>
+                <input type="email" name="iemail" id="iemail">
+                <span class="material-symbols-outlined">Account_Circle</span>
+            </div>
+            <div class="login">
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha">
+                <span class="material-symbols-outlined">lock</span>
+            </div>
+            <div class="esqueci">
+                <p>Esqueci a <a href="#">Senha</a><span class="material-symbols-outlined"></span></p>
             </div>
             <div>
-                <h1>titulo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, cumque consequatur eaque.</p>
+                <input type="submit" value="Conecte-se">
             </div>
-            <div class="login">
-                Login
+            <div class="botao">
+                <p>Não tenho conta <a href="#">Registrar-se</a></p>
             </div>
-            <div class="login">
-                Senha
-            </div>
-            <div class="botao">1</div>
-            <div class="botao">2</div>
-    </main>
-  <!--   <main>
-        <section id="login">
-            <div id="imagem">
-
-            </div>
+        </form>
+    </section>
+    <!-- <section>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
@@ -55,7 +61,7 @@
                     <a href="esqueci.html" class="botao">Esqueci a senha <span class="material-symbols-outlined">mail</span> </a>
                 </form>
             </div>
-        </section>
-    </main> -->
+        </section> -->
 </body>
+
 </html>
