@@ -55,9 +55,6 @@ div {
     width: 300px;
 }
 
-.login{
-}
-
 .login > label{
     display: flex;
     flex-direction: column;
@@ -99,7 +96,6 @@ input[type=submit]:hover{
 
 .botao{
     text-align: center;
-
 }
 
 a{
