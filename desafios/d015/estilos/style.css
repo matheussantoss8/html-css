@@ -24,10 +24,10 @@ body {
     align-items: center;
     gap: 30px;
 
-    background-color: transparent;
-    border-radius: 20px;
-    border: 1px solid #ffffffc4;
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid #ffffffc4;  
 }
 
 .formulario{
