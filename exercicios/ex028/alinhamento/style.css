@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-content: center;
+}
+
+section{
+    background-color: aqua;
+    height: 100vh;
+
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 200px);
+
+    gap: 3px;
+
+    justify-content: space-around;
+    align-content: center;
+}
+
+div{
+    background-color: violet;
+}
